@@ -1,0 +1,43 @@
+﻿@inherits System.Web.Mvc.WebViewPage
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>IMDB Web Api</title>
+</head>
+<body>
+    <div>
+        <h2>IMDB Web API</h2>
+
+        <p>This API provides access to my mini custom movie database.</p>
+        <br/>
+        <br/>
+        <table>
+            <tr style="text-align: left;">
+                <th>API</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td><a href="/api/movies">GET /api/movies</a></td>
+                <td>Retrieves an array of movie objects.</td>
+            </tr>
+            <tr>
+                <td><a href="/api/movies/1">GET /api/movies/1</a></td>
+                <td>Retrieves a single movie object.</td>
+            </tr>
+            <tr>
+                <td><a href="/api/genres">GET /api/genres</a></td>
+                <td>Retrieves an array of genre strings.</td>
+            </tr>
+            
+        </table>
+        <br/>
+        <br/>
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - IMDB</p>
+        </footer>
+    </div>
+</body>
+</html>
