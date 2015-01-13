@@ -1,4 +1,5 @@
 imdb app
 ====
 
-This version of my IMDB app uses SQL Server, Entity Framework, C# .NET MVC, Razor, Ajax and Bootstrap.
+This is the api for the version of my IMDB app that uses SQL Server, Entity Framework, C# .NET Web API, Yeoman, Angular and Bootstrap. 
+http://apiimdb.azurewebsites.net
